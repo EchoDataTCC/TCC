@@ -1,0 +1,90 @@
+.sem-underline{
+    text-decoration: none;
+}
+.mapa iframe{
+    width: 100%;
+} 
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif;}
+body, html {
+  color: blue;
+  height: 100%;
+  line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("");
+  min-height: 100%;
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}
+.equipe_container{
+    padding:128px 16px;
+    margin-bottom: 20px;
+}
+.equipe_titulo{
+    text-align: center;
+}
+.equipe_subtitulo{
+    text-align: center;
+}
+.equipe_galeria{
+    margin-bottom: 20px;
+}
+
+#textareamensagem{
+  resize: none;
+  width: 100%;
+  height: 200px;
+}
+
+#modernizar{
+  color: #0000FF;
+}
+
+#escrever{
+  color: #0000FF;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 2s steps(13) infinite alternate,
+    blink 700ms steps(13) infinite normal;
+  border-right: 5px solid #0000FF;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
+@keyframes blink {
+  from {
+    border-color: #0000FF;
+  }
+  to {
+    border-color: transparent;
+  }
+}
+
+#botaoconheca{
+  background-color: #0000FF;
+
+}
+
+/* barra de scroll */
+body::-webkit-scrollbar { 
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+  border: 10px solid #0000FF;
+}
