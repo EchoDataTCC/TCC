@@ -53,6 +53,22 @@ body, html {
   border-right: 5px solid #0000FF;
 }
 
+#escrever2{
+  color: #0000FF;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+@keyframes aparecer{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
 @keyframes typewriter {
   from {
     width: 0%;
@@ -61,6 +77,7 @@ body, html {
     width: 50%;
   }
 }
+
 @keyframes blink {
   from {
     border-color: #0000FF;

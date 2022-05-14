@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="estilo.css">
+<link rel="icon" href="icon_echodata32x32.png">
 </head>
 <body>
 
@@ -46,9 +47,9 @@
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-white" style="padding:48px">
-    <span id="escrever" class="escrever w3-jumbo w3-hide-small">O Nosso limite é a sua imaginação!</span><br>
-    <span id="escrever" class="escrever w3-xxlarge w3-hide-large w3-hide-medium">O Nosso limite é a sua imaginação!</span><br>
-    <span id="escrever" class="escrever w3-large">Modernize já o seu comércio com os nossos sistemas.</span>
+    <span id="escrever" class="escrever w3-jumbo w3-hide-small"> O Nosso limite é a sua imaginação!</span><br>
+    <span id="escrever" class="escrever w3-xxlarge w3-hide-large w3-hide-medium"><div class="texto1">O Nosso limite é a sua imaginação!</div></span><br>
+    <span id="escrever2" class="escrever w3-large"><div class="texto2"> Modernize já o seu comércio com os nossos sistemas.</div></span>
     <p><a href="#about" id="botaoconheca" class="w3-button w3-padding-large w3-large w3-margin-top w3-hover-opacity-off">Conheça a EchoData</a></p>
   </div> 
   <div class="w3-display-bottomleft w3-text-blue w3-large" style="padding:24px 48px">
@@ -57,7 +58,7 @@
     <a id="modernizar" class="fa fa-pinterest-p w3-hover-opacity sem-underline" href="https://br.pinterest.com/"></a>
     <a id="modernizar" class="fa fa-twitter w3-hover-opacity sem-underline" href="https://twitter.com/?lang=pt-br"></a>
     <a id="modernizar" class="fa fa-linkedin w3-hover-opacity sem-underline" href="https://www.linkedin.com/in/echodata-tcc-92118923a/"></a>
-  </div>
+  </div>            
 </header>
 
 <!-- About Section -->
@@ -363,17 +364,7 @@ function onClick(element) {
 }
 
 // Máquina de escrever 
-function typeWrite(elemento){
-  const textoArray = elemento.innerHTML.split('');
-  elemento.innerHTML = '';
-  textoArray.forEach((letra, i) =>{
-      setTimeout(() =>
-          elemento.innerHTML +=letra, 75 * i);
-  });
-}
 
-const titulo = document.querySelector('escrever');
-typeWriter(titulo);
 
 
 
@@ -393,6 +384,8 @@ function w3_close() {
     mySidebar.style.display = "none";
 }
 </script>
+
+<script src="js/index.js"></script>
 
 </body>
 </html>
