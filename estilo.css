@@ -46,7 +46,7 @@ body, html {
 
 #escrever{
   color: #0000FF;
-  white-space: nowrap;
+  white-space: wrap;
   overflow: hidden;
   animation: typewriter 2s steps(13) infinite alternate,
     blink 700ms steps(13) infinite normal;
@@ -55,7 +55,7 @@ body, html {
 
 #escrever2{
   color: #0000FF;
-  white-space: nowrap;
+  white-space: wrap;
   overflow: hidden;
 }
 
@@ -104,4 +104,12 @@ body::-webkit-scrollbar-track{
 body::-webkit-scrollbar-thumb{
   border-radius: 20px;
   border: 10px solid #0000FF;
+}
+
+.clean{
+    border: 0 !important;
+}
+
+.w3-sidebar{
+    background-color: #0000FF;
 }
