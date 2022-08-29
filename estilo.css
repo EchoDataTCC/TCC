@@ -113,3 +113,7 @@ body::-webkit-scrollbar-thumb{
 .w3-sidebar{
     background-color: #0000FF;
 }
+
+.no-link{
+    text-decoration: none;
+}
