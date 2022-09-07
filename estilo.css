@@ -126,3 +126,45 @@ body::-webkit-scrollbar-thumb{
 .no-link{
     text-decoration: none;
 }
+
+html{
+  scroll-behavior:smooth;
+}
+
+/*Página de Obrigado*/
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color:white;
+  flex-direction: column;
+}
+
+.imagemObrigado{
+  width: 10%;
+}
+
+.textoObrigado{
+  font-size: 45px;
+  color: black;
+  margin-bottom: 30px ;
+}
+
+.paragrafoObrigado{ 
+  color: black;
+  margin-bottom: 50px ;
+}
+
+.btnHome{
+  padding: 15px 55px;
+  background:#1836B2;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.btnHome:hover{
+  border-radius: 16px;
+}
